@@ -1,0 +1,4 @@
+djangorestframework
+gunicorn==21.2.0
+psycopg
+psycopg2

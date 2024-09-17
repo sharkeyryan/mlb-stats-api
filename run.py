@@ -45,7 +45,7 @@ def generate_team_record(team_id=None):
             outcome = "lost to"
             team_lost += 1
 
-            if (opp_score - team_score) <= 2:
+            if (opp_score - team_score) <= 1:
                 team_lost_by_two += 1
 
         # print(f"The {team_name}({team_score}) {outcome} the {opp_name}(id: {opp_id})({opp_score}) on {g['game_date']}")
